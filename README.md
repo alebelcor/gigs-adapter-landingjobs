@@ -2,6 +2,8 @@
 
 > A [gigs](https://github.com/alebelcor/gigs) adapter for [Landing.jobs](https://landing.jobs)
 
+[![Build Status](https://img.shields.io/travis/alebelcor/gigs-adapter-landingjobs/master.svg)](https://travis-ci.org/alebelcor/gigs-adapter-landingjobs)
+
 ## Install
 
 Ensure you have [Node.js](https://nodejs.org) version 4+ installed. Then run the following:
