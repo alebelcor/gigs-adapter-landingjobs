@@ -31,7 +31,8 @@
     "url": "https://github.com/alebelcor/gigs-adapter-landingjobs.git"
   },
   "scripts": {
-    "test": "ava"
+    "test": "nyc ava",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls"
   },
   "dependencies": {
     "gigs": "^0.1.0",
@@ -39,7 +40,9 @@
     "moment": "^2.14.1"
   },
   "devDependencies": {
-    "ava": "^0.16.0"
+    "ava": "^0.16.0",
+    "coveralls": "^2.11.12",
+    "nyc": "^8.1.0"
   },
   "engines": {
     "node": ">=4"
