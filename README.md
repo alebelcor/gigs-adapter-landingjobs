@@ -3,6 +3,7 @@
 > A [gigs](https://github.com/alebelcor/gigs) adapter for [Landing.jobs](https://landing.jobs)
 
 [![Build Status](https://img.shields.io/travis/alebelcor/gigs-adapter-landingjobs/master.svg)](https://travis-ci.org/alebelcor/gigs-adapter-landingjobs)
+[![Test coverage](https://img.shields.io/coveralls/alebelcor/gigs-adapter-landingjobs.svg)](https://coveralls.io/github/alebelcor/gigs-adapter-landingjobs)
 
 ## Install
 
