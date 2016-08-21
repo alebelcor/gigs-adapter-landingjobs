@@ -2,6 +2,7 @@
 
 > A [gigs](https://github.com/alebelcor/gigs) adapter for [Landing.jobs](https://landing.jobs)
 
+[![npm version](https://img.shields.io/npm/v/gigs-adapter-landingjobs.svg)](https://npmjs.org/package/gigs-adapter-landingjobs)
 [![Build Status](https://img.shields.io/travis/alebelcor/gigs-adapter-landingjobs/master.svg)](https://travis-ci.org/alebelcor/gigs-adapter-landingjobs)
 [![Test coverage](https://img.shields.io/coveralls/alebelcor/gigs-adapter-landingjobs.svg)](https://coveralls.io/github/alebelcor/gigs-adapter-landingjobs)
 
