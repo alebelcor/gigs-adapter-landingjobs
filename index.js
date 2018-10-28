@@ -1,18 +1,18 @@
 'use strict';
 
-const got = require('got');
+const defaultsDeep = require('lodash/defaultsDeep');
 
 const getGotOptions = require('./lib/get-got-options');
-const getResponseBody = require('./lib/get-response-body');
-const getGigs = require('./lib/get-gigs');
+const fetch = require('./lib/fetch');
 
 const ADAPTER_ENDPOINT = 'https://landing.jobs/api/v1/offers';
 
 module.exports = function gigsAdapterLandingJobs(options) {
-  options = options || {};
+  options = defaultsDeep({}, options, {
+    endpoint: ADAPTER_ENDPOINT,
+    gotOptions: getGotOptions()
+  });
 
-  return got.get(ADAPTER_ENDPOINT, getGotOptions())
-    .then(getResponseBody)
-    .then(getGigs)
+  return fetch(options)
     .catch(console.error);
-}
+};
