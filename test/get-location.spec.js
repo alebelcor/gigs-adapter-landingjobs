@@ -13,9 +13,9 @@ test('it should return at least the city', t => {
 });
 
 test('it should return at least the country', t => {
-  t.deepEqual('baz', getlocation({country_name: 'baz'}));
+  t.deepEqual('baz', getlocation({country_name: 'baz'})); // eslint-disable-line camelcase
 });
 
 test('it should return at least the city and country', t => {
-  t.deepEqual('ccc, ddd', getlocation({city: 'ccc', country_name: 'ddd'}));
+  t.deepEqual('ccc, ddd', getlocation({city: 'ccc', country_name: 'ddd'})); // eslint-disable-line camelcase
 });
